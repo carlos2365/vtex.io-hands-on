@@ -10,11 +10,13 @@
     },
     //******************************************************** RETO-RICH-TEXT*****************************************************************//
     "rich-text#reto1-title": {
+        "title": "Valores",
         "props": {
             "text": "# *Nuestros Valores*"
         }
     },
     "rich-text#reto1-valores": {
+        "title": "Pilares",
         "props": {
             "text": "-Perseguimos el WOW de nuestros clientes \n -Perseguimos el aprendizaje y el crecimiento \n -Somos apasionados y disciplinados \n -Somos un equipo \n -Somos orientas a resultados" 
         }
