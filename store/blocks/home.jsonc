@@ -2,26 +2,10 @@
     "store.home": {
         "blocks": [
             "flex-layout.row#promises",
-            "flex-layout.row#categories",
-            "rich-text#reto1-title",
-            "rich-text#reto1-valores"
+            "flex-layout.row#categories"
            
         ]
     },
-    //******************************************************** RETO-RICH-TEXT*****************************************************************//
-    "rich-text#reto1-title": {
-        "title": "Valores",
-        "props": {
-            "text": "# *Nuestros Valores*"
-        }
-    },
-    "rich-text#reto1-valores": {
-        "title": "Pilares",
-        "props": {
-            "text": "-Perseguimos el WOW de nuestros clientes \n -Perseguimos el aprendizaje y el crecimiento \n -Somos apasionados y disciplinados \n -Somos un equipo \n -Somos orientas a resultados" 
-        }
-    },
-
     //******************************************************** RETO-1 SESION-1*****************************************************************//
 
         // *******************************************************PROMESAS-DE-VALOR*****************************************
