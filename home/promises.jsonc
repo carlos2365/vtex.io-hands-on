@@ -3,6 +3,7 @@
 
         // *******************************************************PROMESAS-DE-VALOR*****************************************
         "flex-layout.row#promises":{
+            "title": "promises",
             "children":[
                 "image#icon-truck",
                 "rich-text#truck",

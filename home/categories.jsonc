@@ -3,6 +3,7 @@
 
         // categories-structure
         "flex-layout.row#categories":{
+            "title": "categories",
             "children":[
                 "flex-layout.col#categories-1",
                 "flex-layout.col#categories-2",
