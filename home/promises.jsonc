@@ -1,0 +1,76 @@
+{
+  //******************************************************** RETO-1 SESION-1*****************************************************************//
+
+        // *******************************************************PROMESAS-DE-VALOR*****************************************
+        "flex-layout.row#promises":{
+            "children":[
+                "image#icon-truck",
+                "rich-text#truck",
+                "image#icon-padlock",
+                "rich-text#padlock",
+                "image#icon-sale",
+                "rich-text#sale",
+                "image#icon-geolocation",
+                "rich-text#geolocation",
+                "image#icon_payment-method",
+                "rich-text#payment-method"
+            ]
+        },
+        //props row-1
+        "image#icon-truck":{
+            "props":{
+                "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            }
+        },
+        "rich-text#truck":{
+            "props":{
+                "text":"Entregas en \n  **45min**"
+            }
+        },
+         //props row-2
+        "image#icon-padlock":{
+            "props":{
+                "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            }
+        },
+        "rich-text#padlock":{
+            "props":{
+                "text":"Compra **fácil** \n **y segura**"
+            }
+        },
+        //props row-3
+        "image#icon-sale":{
+            "props":{
+                "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            }
+        },
+        "rich-text#sale":{
+            "props":{
+                "text":"Mejores \n precios y \n **ofertas**"
+            }
+        },
+
+         //props row-4
+        "image#icon-geolocation":{
+            "props":{
+                "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            }
+        },
+        "rich-text#geolocation":{
+            "props":{
+                "text":"**Seguimiento**  \n de tus pedidos"
+            }
+        },
+        //props row-5
+        "image#icon_payment-method":{
+            "props":{
+                "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            }
+        },
+        "rich-text#payment-method":{
+            "props":{
+                "text":"Pago **online y**  \n **contra entrega**"
+            }
+        }
+  
+}

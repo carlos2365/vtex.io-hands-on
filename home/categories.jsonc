@@ -1,0 +1,197 @@
+{
+     // *******************************************************CATEGORIAS*****************************************
+
+        // categories-structure
+        "flex-layout.row#categories":{
+            "children":[
+                "flex-layout.col#categories-1",
+                "flex-layout.col#categories-2",
+                "flex-layout.col#categories-3",
+                "flex-layout.col#categories-4",
+                "flex-layout.col#categories-5",
+                "flex-layout.col#categories-6",
+                "flex-layout.col#categories-7",
+                "flex-layout.col#categories-8",
+                "flex-layout.col#categories-9"
+            ]
+        },
+
+        //see-everything
+        "flex-layout.col#categories-1":{
+            "children":[
+                "rich-text#title-see-everything",
+                "rich-text#link-see-everything"
+            ]
+        },
+
+    
+        "rich-text#title-see-everything":{
+            "props":{
+                "text":"**¿QUE ESTAS**  \n  **BUSCANDO?**"
+            }
+        },
+        "rich-text#link-see-everything":{
+            "props":{
+                "text":"[VER TODO](https://#)"
+            }
+        },
+
+        // "flex-layout.col#hair-care"
+        "flex-layout.col#categories-2":{
+            "children":[
+                "image#hair-care",
+                "rich-text#hair-care"
+            ]
+        },
+
+        "image#hair-care":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+                
+            }
+        },
+        "rich-text#hair-care":{
+            "props":{
+                "text":"Cuidado Capilar"
+            }
+        },
+
+        // "flex-layout.col#body-care"
+        "flex-layout.col#categories-3":{
+            "children":[
+                "image#body-care",
+                "rich-text#body-care"
+            ]
+        },
+
+        "image#body-care":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#body-care":{
+            "props":{
+                "text":"Cuidado Corporal"
+            }
+        },
+
+        // flex-layout.col#facial-care
+        "flex-layout.col#categories-4":{
+            "children":[
+                "image#facial-care",
+                "rich-text#facial-care"
+            ]
+        },
+
+        "image#facial-care":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#facial-care":{
+            "props":{
+                "text":"Cuidado Facial"
+            }
+        },
+
+        // flex-layout.col#make-up
+        "flex-layout.col#categories-5":{
+            "children":[
+                "image#make-up",
+                "rich-text#make-up"
+            ]
+        },
+
+        "image#make-up":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#make-up":{
+            "props":{
+                "text":"Maquillaje"
+            }
+        },
+
+        // flex-layout.col#care-baby
+        "flex-layout.col#categories-6":{
+            "children":[
+                "image#care-baby",
+                "rich-text#care-baby"
+            ]
+        },
+
+        "image#care-baby":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#care-baby":{
+            "props":{
+                "text":"Cuidado Bebé"
+            }
+        },
+
+        // hair_care
+        "flex-layout.col#categories-7":{
+            "children":[
+                "image#hair_care",
+                "rich-text#hair_care"
+            ]
+        },
+        "image#hair_care":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#hair_care":{
+            "props":{
+                "text":"Cuidado Capilar"
+            }
+        },
+
+        // hair_care
+        "flex-layout.col#categories-8":{
+            "children":[
+                "image#body_care",
+                "rich-text#body_care"
+            ]
+        },
+
+        "image#body_care":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#body_care":{
+            "props":{
+                "text":"Cuidado Corporal"
+            }
+        },
+
+        // facial_care
+        "flex-layout.col#categories-9":{
+            "children":[
+                "image#facial_care",
+                "rich-text#facial_care"
+            ]
+        },
+
+        "image#facial_care":{
+            "props": {
+                "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            
+            }
+        },
+        "rich-text#facial_care":{
+            "props":{
+                "text":"Cuidado Facial"
+            }
+        }
+}
