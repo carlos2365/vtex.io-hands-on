@@ -19,33 +19,39 @@
         },
         //props row-1
         "image#icon-truck":{
+            "title": "pr-image-1",
             "props":{
                 "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
             }
         },
         "rich-text#truck":{
+            "title": "pr-texto-1",
             "props":{
                 "text":"Entregas en \n  **45min**"
             }
         },
          //props row-2
         "image#icon-padlock":{
+            "title": "pr-image-2",
             "props":{
                 "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
             }
         },
         "rich-text#padlock":{
+            "title": "pr-texto-2",
             "props":{
                 "text":"Compra **fácil** \n **y segura**"
             }
         },
         //props row-3
         "image#icon-sale":{
+            "title": "pr-image-3",
             "props":{
                 "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
             }
         },
         "rich-text#sale":{
+            "title": "pr-texto-3",
             "props":{
                 "text":"Mejores \n precios y \n **ofertas**"
             }
@@ -53,22 +59,26 @@
 
          //props row-4
         "image#icon-geolocation":{
+            "title": "pr-image-4",
             "props":{
                 "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
             }
         },
         "rich-text#geolocation":{
+            "title": "pr-texto-4",
             "props":{
                 "text":"**Seguimiento**  \n de tus pedidos"
             }
         },
         //props row-5
         "image#icon_payment-method":{
+            "title": "pr-image-5",
             "props":{
                 "src":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
             }
         },
         "rich-text#payment-method":{
+            "title": "pr-texto-5",
             "props":{
                 "text":"Pago **online y**  \n **contra entrega**"
             }
