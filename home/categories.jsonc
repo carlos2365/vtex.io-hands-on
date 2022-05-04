@@ -3,6 +3,7 @@
 
         // categories-structure
         "flex-layout.row#categories":{
+            "title": "categories",
             "children":[
                 "flex-layout.col#categories-1",
                 "flex-layout.col#categories-2",
@@ -26,11 +27,13 @@
 
     
         "rich-text#title-see-everything":{
+            "title": "ver-todo",
             "props":{
                 "text":"**¿QUE ESTAS**  \n  **BUSCANDO?**"
             }
         },
         "rich-text#link-see-everything":{
+            "title": "link-1",
             "props":{
                 "text":"[VER TODO](https://#)"
             }
@@ -45,12 +48,14 @@
         },
 
         "image#hair-care":{
+            "title": "image-1",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
                 
             }
         },
         "rich-text#hair-care":{
+            "title": "texto-1",
             "props":{
                 "text":"Cuidado Capilar"
             }
@@ -65,12 +70,14 @@
         },
 
         "image#body-care":{
+            "title": "image-2",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#body-care":{
+            "title": "texto-2",
             "props":{
                 "text":"Cuidado Corporal"
             }
@@ -85,12 +92,14 @@
         },
 
         "image#facial-care":{
+            "title": "image-3",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#facial-care":{
+            "title": "texto-3",
             "props":{
                 "text":"Cuidado Facial"
             }
@@ -105,12 +114,14 @@
         },
 
         "image#make-up":{
+            "title": "image-4",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#make-up":{
+            "title": "texto-4",
             "props":{
                 "text":"Maquillaje"
             }
@@ -125,12 +136,14 @@
         },
 
         "image#care-baby":{
+            "title": "image-5",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#care-baby":{
+            "title": "texto-5",
             "props":{
                 "text":"Cuidado Bebé"
             }
@@ -144,12 +157,14 @@
             ]
         },
         "image#hair_care":{
+            "title": "image-6",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#hair_care":{
+            "title": "texrto-6",
             "props":{
                 "text":"Cuidado Capilar"
             }
@@ -164,12 +179,14 @@
         },
 
         "image#body_care":{
+            "title": "image-7",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#body_care":{
+            "title": "texto-7",
             "props":{
                 "text":"Cuidado Corporal"
             }
@@ -184,12 +201,14 @@
         },
 
         "image#facial_care":{
+            "title": "image-8",
             "props": {
                 "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
             
             }
         },
         "rich-text#facial_care":{
+            "title": "texto-8",
             "props":{
                 "text":"Cuidado Facial"
             }
