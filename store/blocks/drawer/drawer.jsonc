@@ -1,0 +1,30 @@
+{
+    "drawer#guia-tallas": {
+        "children": [
+
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+
+    "drawer-trigger": {
+        "children": [
+            "rich-text#open-drawer-size-guide-mujer",
+            "rich-text#open-drawer-size-guide-hombre"
+        ]
+    },
+
+    "rich-text#open-drawer-size-guide-mujer": {
+        "props": {
+            "text": "Mujer"
+        }
+       
+    },
+    "rich-text#open-drawer-size-guide-hombre": {
+        "props": {
+            "text": "Hombre"
+        }
+       
+    }
+}
