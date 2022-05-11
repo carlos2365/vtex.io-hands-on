@@ -1,0 +1,32 @@
+{
+    "list-context.image-list#promise-value":{
+        "children":["slider-layout#promise-value"],
+        "props":{
+            "images":[{
+                "image":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            },
+            {
+                "image":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            },
+            {
+                "image":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            },
+            {
+                "image":"https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+            }
+        ]
+        }
+    },
+    "slider-layout#promise-value": {
+        "children":[],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly"
+        }
+    }
+}
