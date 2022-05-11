@@ -1,0 +1,40 @@
+{
+    "list-context.image-list#main-slider":{
+        "children":["slider-layout#main-slider"],
+        "title":"carousel-slider-principal",
+        "props":{
+            "height": 650,
+            "images":[{
+                "image":"https://i.imgur.com/oY7YEDM.jpeg",
+                "link":{
+                    "url":"/categoria-1"
+                }
+            },
+            {
+                "image":"https://i.imgur.com/oY7YEDM.jpeg",
+                "link":{
+                    "url":"/categoria-2"
+                }
+            },
+            {
+                "image":"https://i.imgur.com/oY7YEDM.jpeg",
+                "link":{
+                    "url":"/categoria-3"
+                }
+            }
+        ]
+        }
+    },
+    "slider-layout#main-slider": {
+        "title":"slider-carousel-principal",
+        "props": {
+          "itemsPerPage": 1,
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "slideTransition":{
+            "speed":3500
+          }
+        }
+    }
+}

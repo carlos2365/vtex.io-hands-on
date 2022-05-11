@@ -5,7 +5,8 @@
             // "flex-layout.row#categories",
             // "responsive-layout.desktop#pave-recipe",
             // "responsive-layout.mobile#pave-recipe",
-            "list-context.image-list#promise-value"
+            // "list-context.image-list#promise-value",
+            "list-context.image-list#main-slider"
         ]
        
     }
