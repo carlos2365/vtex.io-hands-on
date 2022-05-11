@@ -1,0 +1,15 @@
+{
+    "list-context.product-list#top-sale": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#vitrine"]
+    },
+    "slider-layout#vitrine": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
+        }
+    }
+}
