@@ -1,0 +1,129 @@
+{
+    "responsive-layout.desktop#pave-recipe":{
+        "children":[
+            "flex-layout.row#container-pave-recipe"
+        ]
+    },
+    "flex-layout.row#container-pave-recipe":{
+        "children":["flex-layout.col#recipe-pave"]
+    },
+    "flex-layout.col#recipe-pave":{
+        "children":[
+            "flex-layout.row#recipe-pave-points"
+        ]
+    },
+    "flex-layout.row#recipe-pave-points":{
+        "children":[
+            "flex-layout.col#menu-image",
+            "flex-layout.col#details"
+        ]
+    },
+    "flex-layout.col#menu-image":{
+        "children":["image#pave"]
+    },
+    "image#pave":{
+        "props":{
+            "src":"https://i.imgur.com/ipQipBB.jpeg"
+        }
+    },
+    "flex-layout.col#details":{
+        "children":[
+            "rich-text#title-menu",
+            "rich-text#specification-recipe",
+            "flex-layout.row#time-ingredients-level",
+            "flex-layout.row#persons-value-country"
+        ]
+    },
+    "rich-text#title-menu":{
+        "props":{
+            "text":"**Pavo Dorado relleno al horno**"
+        }
+    },
+    "rich-text#specification-recipe":{
+        "props":{
+            "text":"Delicioso y sencillo de preparar, pavo al horno relleno de verduras con lorem ipsum para celebrar la navidad con toda la familia."
+        }
+    },
+    "flex-layout.row#time-ingredients-level":{
+        "children":[
+            "image#icon-time",
+            "rich-text#time-coock",
+            "image#icon-ingredients",
+            "rich-text#ingredients",
+            "image#icon-level",
+            "rich-text#level"
+        ]
+    },
+    "flex-layout.row#persons-value-country":{
+        "children":[
+            "image#icon-persons",
+            "rich-text#persons",
+            "image#icon-value",
+            "rich-text#value",
+            "image#icon-country",
+            "rich-text#country"
+        ]
+    },
+    "image#icon-time":{
+        "props":{
+            "src":"https://i.imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#time-coock":{
+        "props":{
+            "text":"60 minutos"
+        }
+    },
+    "image#icon-ingredients":{
+        "props":{
+            "src":"https://imgur.com/YU224Ni"
+        }
+    },
+    "rich-text#ingredients":{
+        "props":{
+            "text":"8 Ingredientes"
+        }
+    },
+    "image#icon-level":{
+        "props":{
+            "src":"https://i.imgur.com/EvjGjXS.png"
+        }
+    },
+    "rich-text#level":{
+        "props":{
+            "text":"Nivel: Principiante"
+        }
+    },
+    
+    "image#icon-persons":{
+        "props":{
+            "src":"https://i.imgur.com/9V8uyXo.png"
+        }
+    },
+    "rich-text#persons":{
+        "props":{
+            "text":"4 a 6 comensales"
+        }
+    },
+    "image#icon-value":{
+        "props":{
+            "src":"https://i.imgur.com/xx4LO0k.png"
+        }
+    },
+    "rich-text#value":{
+        "props":{
+            "text":"$/1200 - $/1480"
+        }
+    },
+    "image#icon-country":{
+        "props":{
+            "src":"https://i.imgur.com/IhKo5Rc.png"
+        }
+    },
+    "rich-text#country":{
+        "props":{
+            "text":"País: Perú"
+        }
+    }
+    
+}
