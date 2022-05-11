@@ -1,9 +1,10 @@
 {
     "store.home": {
         "blocks": [
-            "flex-layout.row#promises",
-            "flex-layout.row#categories"
-           
+            "responsive-layout.desktop#pave-recipe",
+            "responsive-layout.mobile#pave-recipe"
         ]
+       
     }
+    
 }
